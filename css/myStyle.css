@@ -1,0 +1,27 @@
+.catalog {
+    position: relative;
+}
+
+.loading__content {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 26px 9px rgba(34, 60, 80, 0.2);
+}
+
+.catalog__loading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    backdrop-filter: blur(32px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
